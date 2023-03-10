@@ -1,12 +1,7 @@
-
-
 function App() {
- 
   return (
-    <div className="App">
-      Apple
-    </div>
-  )
+    <div className="App font-pro-black text-blue-500 font-test">Apple</div>
+  );
 }
 
-export default App
+export default App;
