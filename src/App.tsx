@@ -1,6 +1,13 @@
+import NavBar from "./components/NavBar";
+import LocaleSwitcher from "./components/localeSwitcher";
+
 function App() {
   return (
-    <div className="App font-pro-black text-blue-500 font-test">Apple</div>
+    <>
+      <LocaleSwitcher />
+      <NavBar />
+      <main className="pt-[7.375rem] mx-auto max-w-[2560px]">main</main>
+    </>
   );
 }
 
