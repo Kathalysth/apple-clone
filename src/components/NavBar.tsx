@@ -4,7 +4,7 @@ import {
 } from "@heroicons/react/20/solid";
 function NavBar(): JSX.Element {
   return (
-    <nav className="h-12 bg-black/[0.7] fixed top-[4.375rem] w-full">
+    <nav className="h-12 bg-black/[0.7] fixed top-[4.375rem] w-full z-[1]">
       <div className="max-w-5xl mx-auto px-6 flex items-center h-full">
         <ul className="flex gap-8 text-xs items-center text-white">
           <li>

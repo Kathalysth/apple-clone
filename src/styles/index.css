@@ -54,3 +54,12 @@
   font-weight: 900;
   src: url("../assets/fonts/sf-pro/black.ttf") format("truetype");
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none !important; /* Firefox */
+}

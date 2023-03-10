@@ -19,9 +19,13 @@ function localeSwitcher(): JSX.Element {
         >
           Continue
         </button>
-        <div className="absolute right-0 flex items-center my-auto">
+        <button
+          role="button"
+          aria-label="close locale switcher"
+          className="absolute right-0 flex items-center my-auto"
+        >
           <XMarkIcon className=" h-5 w-5 text-gray-400" aria-hidden="true" />
-        </div>
+        </button>
       </div>
     </aside>
   );
